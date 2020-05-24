@@ -1,0 +1,8 @@
+# IDE
+.idea/*
+
+# Dependency directory
+node_modules
+
+./*$*
+*.xml

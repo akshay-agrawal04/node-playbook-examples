@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  mongo:
+    container_name: integrationTestingExample-mongo
+    environment:
+      - MONGO_INITDB_DATABASE=User
+      - MONGO_DATA_DIR=/data/db
+      - MONGO_LOG_DIR=/dev/null
+    image: mongo
+    ports:
+      - '27017:27017'
